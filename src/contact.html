@@ -1,0 +1,303 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Contact Art Of Stone to discuss residential, commercial and architectural stone installation projects in Ontario."
+    />
+    <title>Contact | Art Of Stone</title>
+    <link rel="icon" href="./assets/favicon.svg" type="image/svg+xml" />
+  </head>
+  <body data-page="contact">
+    <a class="skip-link" href="#main-content">Skip to content</a>
+    <header class="site-header" data-header>
+      <div class="container nav-shell">
+        <a class="brand" href="index.html" aria-label="Art Of Stone home"
+          ><img src="./assets/logo.png" alt="" class="brand-mark" /><span
+            class="brand-copy"
+            ><strong>ART OF STONE</strong
+            ><small>Architectural Masonry</small></span
+          ></a
+        >
+        <button
+          class="nav-toggle"
+          type="button"
+          aria-expanded="false"
+          aria-controls="primary-nav"
+          data-nav-toggle
+        >
+          <span></span><span></span><span></span
+          ><span class="sr-only">Toggle navigation</span>
+        </button>
+        <nav
+          class="primary-nav"
+          id="primary-nav"
+          aria-label="Primary navigation"
+          data-nav
+        >
+          <a href="index.html" data-nav-link="home">Home</a
+          ><a href="about.html" data-nav-link="about">About</a
+          ><a href="services.html" data-nav-link="services">Services</a
+          ><a href="projects.html" data-nav-link="projects">Projects</a
+          ><a href="contact.html" data-nav-link="contact">Contact</a>
+        </nav>
+        <div class="nav-actions">
+          <button
+            class="theme-toggle"
+            type="button"
+            data-theme-toggle
+            aria-label="Switch color theme"
+          >
+            <span class="theme-icon theme-icon-sun">☼</span
+            ><span class="theme-icon theme-icon-moon">◐</span></button
+          ><a class="button button-small button-gold" href="contact.html"
+            >Request a quote</a
+          >
+        </div>
+      </div>
+    </header>
+
+    <main id="main-content">
+      <section class="contact-hero">
+        <div class="container contact-hero-grid">
+          <div class="contact-intro reveal">
+            <p class="eyebrow">Contact</p>
+            <h1>Let’s talk about<br /><span>the wall.</span></h1>
+            <p>
+              Share your plans, photos or rough idea. We’ll use the first
+              conversation to understand the scope, material direction and next
+              useful step.
+            </p>
+            <div class="contact-direct">
+              <div>
+                <span>Email</span
+                ><a href="mailto:hello@artofstone.ca">info@artofstone.ca</a>
+              </div>
+              <div>
+                <span>Phone</span><a href="tel:+5877170583">+1 587 717 0583</a>
+              </div>
+              <div>
+                <span>Service area</span>
+                <p>GTA & Southern Ontario, Canada</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="consultation-panel reveal">
+            <div class="panel-heading">
+              <p class="eyebrow">Consultation request</p>
+              <h2>Tell us about your project.</h2>
+            </div>
+            <form class="consultation-form" data-contact-form novalidate>
+              <div class="form-grid">
+                <label class="field"
+                  ><span>Name *</span
+                  ><input
+                    type="text"
+                    name="name"
+                    autocomplete="name"
+                    required /><small
+                    class="field-error"
+                    data-error-for="name"
+                  ></small
+                ></label>
+                <label class="field"
+                  ><span>Email *</span
+                  ><input
+                    type="email"
+                    name="email"
+                    autocomplete="email"
+                    required /><small
+                    class="field-error"
+                    data-error-for="email"
+                  ></small
+                ></label>
+                <label class="field"
+                  ><span>Phone</span
+                  ><input type="tel" name="phone" autocomplete="tel"
+                /></label>
+                <label class="field"
+                  ><span>City / Area *</span
+                  ><input
+                    type="text"
+                    name="location"
+                    autocomplete="address-level2"
+                    required /><small
+                    class="field-error"
+                    data-error-for="location"
+                  ></small
+                ></label>
+                <label class="field"
+                  ><span>Project type *</span
+                  ><select name="projectType" required>
+                    <option value="">Select one</option>
+                    <option>New residential façade</option>
+                    <option>Exterior renovation</option>
+                    <option>Commercial / multi-unit</option>
+                    <option>Feature wall / fireplace</option>
+                    <option>Repair / restoration</option>
+                    <option>Other</option></select
+                  ><small
+                    class="field-error"
+                    data-error-for="projectType"
+                  ></small
+                ></label>
+                <label class="field"
+                  ><span>Preferred timeline</span
+                  ><select name="timeline">
+                    <option>Flexible</option>
+                    <option>Within 1 month</option>
+                    <option>1–3 months</option>
+                    <option>3–6 months</option>
+                    <option>6+ months</option>
+                  </select></label
+                >
+              </div>
+              <label class="field field-full"
+                ><span>Project details *</span
+                ><textarea
+                  name="message"
+                  rows="6"
+                  placeholder="Tell us about the building, area to be covered, stone style, drawings or anything useful."
+                  required
+                ></textarea
+                ><small class="field-error" data-error-for="message"></small
+              ></label>
+              <label class="checkbox-field"
+                ><input type="checkbox" name="consent" required /><span
+                  >I agree to be contacted about this project request.</span
+                ></label
+              ><small class="field-error" data-error-for="consent"></small>
+              <div class="form-actions">
+                <button class="button button-gold" type="submit">
+                  Send consultation request
+                </button>
+                <p>No spam. Just project communication.</p>
+              </div>
+              <div
+                class="form-status"
+                role="status"
+                aria-live="polite"
+                data-form-status
+              ></div>
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <section class="section contact-map-section">
+        <div class="container map-grid">
+          <div class="map-card reveal">
+            <iframe
+              title="Map showing the Greater Toronto Area in Ontario"
+              src="https://www.openstreetmap.org/export/embed.html?bbox=-80.2441%2C43.1807%2C-78.4479%2C44.2117&amp;layer=mapnik"
+              loading="lazy"
+            ></iframe>
+          </div>
+          <div class="map-copy reveal">
+            <p class="eyebrow">Service area</p>
+            <h2>Based in Ontario.<br />Built for Canadian conditions.</h2>
+            <p>
+              We serve projects across the Greater Toronto Area and surrounding
+              Southern Ontario communities. For larger or specialized work, send
+              us the project location and scope so we can confirm availability.
+            </p>
+            <div class="service-area-list">
+              <span>Toronto</span><span>Vaughan</span><span>Richmond Hill</span
+              ><span>Markham</span><span>Bradford</span><span>Barrie</span
+              ><span>Mississauga</span><span>+ surrounding areas</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section contact-faq-section">
+        <div class="container faq-grid">
+          <div class="reveal">
+            <p class="eyebrow">Before you contact us</p>
+            <h2>Useful things to send.</h2>
+          </div>
+          <div class="faq-list">
+            <details class="reveal">
+              <summary>Do I need architectural drawings?</summary>
+              <p>
+                No. Photos and approximate dimensions are enough to start a
+                conversation. Drawings help when the project is new construction
+                or has complex interfaces.
+              </p>
+            </details>
+            <details class="reveal">
+              <summary>Can I send inspiration photos?</summary>
+              <p>
+                Yes. Inspiration images help us understand stone colour, scale,
+                joint style and the overall architectural direction you prefer.
+              </p>
+            </details>
+            <details class="reveal">
+              <summary>Do you supply the stone?</summary>
+              <p>
+                The starter website is written to support either
+                supply-and-install or installation-only workflows. Replace this
+                answer with the company’s actual purchasing process before
+                launch.
+              </p>
+            </details>
+            <details class="reveal">
+              <summary>How soon can you quote?</summary>
+              <p>
+                Quote timing depends on project size and the information
+                available. Add your real response-time target here once the
+                company confirms its workflow.
+              </p>
+            </details>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="mega-footer">
+      <div class="container footer-top">
+        <div class="footer-brand">
+          <a class="brand" href="index.html"
+            ><img src="./assets/logo.png" alt="" class="brand-mark" /><span
+              class="brand-copy"
+              ><strong>ART OF STONE</strong
+              ><small>Architectural Masonry</small></span
+            ></a
+          >
+          <p>Stone installation designed for modern Canadian architecture.</p>
+        </div>
+        <div class="footer-column">
+          <h3>Explore</h3>
+          <a href="about.html">About us</a><a href="services.html">Services</a
+          ><a href="projects.html">Projects</a
+          ><a href="contact.html">Contact</a>
+        </div>
+        <div class="footer-column">
+          <h3>Services</h3>
+          <a href="services.html#natural-stone">Natural stone</a
+          ><a href="services.html#veneer">Stone veneer</a
+          ><a href="services.html#commercial">Commercial façades</a
+          ><a href="services.html#restoration">Restoration</a>
+        </div>
+        <div class="footer-column">
+          <h3>Connect</h3>
+          <a href="mailto:hello@artofstone.ca">info@artofstone.ca</a
+          ><a href="tel:+5877170583">+1 587 717 0583</a
+          ><span>Serving the GTA & Southern Ontario</span>
+          <div class="social-row">
+            <a href="#" aria-label="Instagram">IG</a
+            ><a href="#" aria-label="Facebook">FB</a
+            ><a href="#" aria-label="LinkedIn">IN</a>
+          </div>
+        </div>
+      </div>
+      <div class="container footer-bottom">
+        <span>© <span data-year></span> Art Of Stone. All rights reserved.</span
+        ><span>Designed & Developed by Mohammad</span>
+      </div>
+    </footer>
+  </body>
+</html>
