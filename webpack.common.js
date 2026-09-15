@@ -70,9 +70,9 @@ const config = {
     path: path.resolve(__dirname, "dist"),
     clean: true,
     //  .for GitHub //
-    // publicPath: "./",
+    publicPath: "./",
     //  for development //
-    publicPath: "",
+    // publicPath: "",
     assetModuleFilename: "assets/media/[name].[contenthash:8][ext][query]",
   },
   module: {
