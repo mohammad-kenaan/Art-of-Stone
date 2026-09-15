@@ -69,7 +69,10 @@ const config = {
     filename: "assets/js/[name].[contenthash:8].js",
     path: path.resolve(__dirname, "dist"),
     clean: true,
-    publicPath: "./", // add ./ //
+    //  .for GitHub //
+    // publicPath: "./",
+    //  for development //
+    publicPath: "",
     assetModuleFilename: "assets/media/[name].[contenthash:8][ext][query]",
   },
   module: {
