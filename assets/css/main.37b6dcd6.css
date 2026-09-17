@@ -453,6 +453,18 @@ html[data-theme='dark'] .map-card iframe { filter: grayscale(1) invert(0.88) hue
   .footer-column:last-child { grid-column: 2 / 4; }
 }
 
+.whatsapp-chat {
+
+  background-color: #25d366;
+
+}
+
+.whatsapp-chat:hover {
+  background-color: #0dc751;
+  transform: translateY(-2px);
+}
+
+
 @media (max-width: 860px) {
   :root { --header-height: 72px; --container: min(100% - 28px, 1380px); }
   .nav-shell { gap: 10px; }
@@ -626,4 +638,4 @@ html[data-theme='light'] { --nav-bg: rgba(247, 244, 237, 0.92); }
 }
 
 
-/*# sourceMappingURL=main.8821e12c.css.map*/
+/*# sourceMappingURL=main.37b6dcd6.css.map*/
